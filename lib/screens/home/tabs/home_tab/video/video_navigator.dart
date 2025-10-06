@@ -46,7 +46,7 @@ class VideoNavigator extends StatelessWidget {
                         );
                       },
                       child: VideoMenuItem(
-                        titile: (classes?[index].title ?? "") + S.of(context).sinif, buttonText: S.of(context).mvzularaBax,
+                        titile: (classes?[index].title ?? "") + ". "+  S.of(context).sinif, buttonText: S.of(context).mvzularaBax,
                       ),
                     );
                   },
